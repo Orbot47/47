@@ -1,0 +1,58 @@
+ul {
+color: rgb(255, 255, 255);
+position: absolute; top: 200px; 
+}
+
+body {
+    background-color:#090814;
+}
+
+#imagem {
+    position:absolute; top: 10%; left:40%;
+    border-radius: 180px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px green(0,0,0,0.1);
+    
+}
+#imagem:hover {
+transform: scale(1.05);
+box-shadow: 0 6px 15px green(0,0,0, 0.2);
+}
+
+.botao_Insta {
+    position:absolute; top:50%;
+    background-color: beige;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-style: unset;
+}
+
+.botao_Insta:hover {
+    background-color: #4338ca; /* cor um pouco mais escura no hover */
+    transform: scale(1.05); /* aumenta levemente */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+
+h1 {
+    color:beige;
+    position: absolute; left: 43%;
+    font-style: oblique;
+}
+
+.titulo {
+    color:beige;
+    font-size: 30px;
+    position: absolute; top:10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+font-size: 20px;
+position: absolute; top:15%;
+font-style: normal;
+}
